@@ -1,0 +1,4 @@
+websockets==11.0.3
+deepface==0.0.79
+opencv-python==4.7.0.72
+numpy==1.24.3

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Dashboard</title>
+    <style>
+        body { padding: 20px; font-family: Arial; }
+        #preview { 
+            max-width: 800px; 
+            border: 2px solid #333;
+            display: none; /* Hidden by default */
+        }
+        .controls { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Interview Analysis Feed</h1>
+    <div class="controls">
+        <button id="startBtn" disabled>Start Capture</button>
+        <button id="stopBtn" disabled>Stop Capture</button>
+    </div>
+    <img id="preview">
+    <script src="dashboard.js"></script>
+</body>
+</html>

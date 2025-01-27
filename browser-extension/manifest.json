@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "AI Interview Analyzer",
+    "version": "1.0",
+    "description": "Capture and analyze interview video feeds",
+    "permissions": ["tabCapture", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }]
+  }
